@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FirebaseAutomaticScreenReportingEnabled</key>
+	<false/>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>사진첩 추가접근</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>사진첩 접근</string>
+	<key>NSCameraUsageDescription</key>
+	<string>카메라 접근</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>
