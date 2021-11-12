@@ -18,6 +18,9 @@ class TabBarVC: ESTabBarController {
     
     var sideMenu : SideMenuNavigationController?
     let sideVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sideVC") as? SideVC
+    let chatVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "chatVC") as! ChatVC
+    let chatVC2 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "chatVC2") as! ChatVC2
+    let chatVC3 = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "chatVC3") as! ChatViewController
     let bag = DisposeBag()
 }
 
@@ -27,12 +30,21 @@ extension TabBarVC{
         guard let chatloginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "chatloginVC") as? ChatLoginVC else {return}
         guard let pickerResultVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "pickerresultVC") as? PickerResultVC else {return}
         
-        chatloginVC.tabBarItem = ESTabBarItem(ESCustomTabbar()
+        chatVC.tabBarItem = ESTabBarItem(ESCustomTabbar()
                                          , title: "Chat"
                                          , image: UIImage(named: "tab_ico2")
                                          , selectedImage: UIImage(named: "tab_ico2")
                                          , tag: 1)
-        
+        chatVC2.tabBarItem = ESTabBarItem(ESCustomTabbar()
+                                         , title: "Chats"
+                                         , image: UIImage(named: "tab_ico3")
+                                         , selectedImage: UIImage(named: "tab_ico3")
+                                         , tag: 1)
+        chatVC3.tabBarItem = ESTabBarItem(ESCustomTabbar()
+                                         , title: "채팅"
+                                         , image: UIImage(named: "tab_ico4")
+                                         , selectedImage: UIImage(named: "tab_ico4")
+                                         , tag: 1)
         homeVC.tabBarItem = ESTabBarItem(ESCustomTabbar()
                                          , title: "Home"
                                          , image: UIImage(named: "tab_ico_home")
@@ -46,7 +58,7 @@ extension TabBarVC{
                                          , tag: 3)
         
         
-        self.viewControllers = [chatloginVC,homeVC,pickerResultVC]
+        self.viewControllers = [chatVC,chatVC3,homeVC,pickerResultVC,chatVC2]
         selectedViewController = homeVC
     }
     

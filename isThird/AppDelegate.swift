@@ -15,9 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var originImgFrame : CGRect?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        guard let rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "naviVC") as? UINavigationController else {return false}
         
         FirebaseApp.configure()
+        
+        guard let rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "naviVC") as? UINavigationController else {return false}
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = rootVC
         window?.makeKeyAndVisible()

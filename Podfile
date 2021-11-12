@@ -13,14 +13,17 @@ target 'isThird' do
   pod 'RxDataSources'
   pod 'TOCropViewController'
 	pod 'CryptoSwift'
-  pod 'ZLImageEditor'
+  pod 'ZLImageEditor', '~> 1.0.3'
   pod 'SideMenu'
   pod 'lottie-ios'
   pod 'ESTabBarController-swift'
   pod 'ImageSlideshow', '~> 1.9.0'
-
+  pod 'SnapKit'
   pod 'Firebase'
   pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'MessageKit'
+#  pod 'FirebaseFirestoreSwift'
   # Pods for isThird
 
 end

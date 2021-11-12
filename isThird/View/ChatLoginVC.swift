@@ -16,7 +16,7 @@ class ChatLoginVC : UIViewController{
     @IBOutlet weak var idField: UITextField!
     @IBOutlet weak var pwField: UITextField!
     
-    let loginUser = UserModel()
+//    let loginUser = UserModel()
     let bag = DisposeBag()
 }
 
@@ -28,13 +28,13 @@ extension ChatLoginVC{
     func bind(){
         loginBtn.rx.tap
             .subscribe(onNext: { _ in
-                
+                let chatVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "chatVC") as! ChatVC
+                chatVC.modalPresentationStyle = .fullScreen
+                self.present(chatVC, animated: true, completion: nil)
             })
             .disposed(by: bag)
-        
     }
 }
-
 extension ChatLoginVC{
     
 }
