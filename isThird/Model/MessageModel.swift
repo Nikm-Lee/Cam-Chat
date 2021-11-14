@@ -9,6 +9,21 @@ import Foundation
 import UIKit
 import MessageKit
 
+struct Sender : SenderType{
+    var senderId: String
+    
+    var displayName: String
+}
+
+struct Message : MessageType{
+    
+    var sender : SenderType
+    var messageId : String
+    var sentDate : Date
+    var kind : MessageKind
+}
+
+
 struct MessageModel{
     var messageId : String? = ""
     var content : String? = ""
@@ -17,15 +32,7 @@ struct MessageModel{
     var senderName : String? = ""
 }
 
-struct Messages : MessageType{
-    var user : String
-    var content : String
-    var sender: SenderType
-    var messageId: String
-    var sentDate: Date
-    var kind: MessageKind
 
-}
 class BaseCollectionViewCell : UICollectionViewCell{
 
     override init(frame: CGRect){
