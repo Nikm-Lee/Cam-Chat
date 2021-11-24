@@ -20,5 +20,15 @@ struct Member {
   let color: UIColor
 }
 
+struct LoginUser : SenderType, Equatable{
+    
+    static var shared = LoginUser()
+    
+    var senderId: String
+    var displayName: String
+    var userId : String?
+    var userPw : String?
+    private init(){ senderId = ""; displayName = "";}
+}
 
 

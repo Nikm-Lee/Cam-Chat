@@ -15,21 +15,22 @@
 		E609E1C72734C2D200705BBB /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609E1C62734C2D200705BBB /* TabBarVC.swift */; };
 		E609E1C92734C3D500705BBB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609E1C82734C3D500705BBB /* HomeVC.swift */; };
 		E609E1CB2734C3DE00705BBB /* SideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609E1CA2734C3DE00705BBB /* SideVC.swift */; };
-		E609E1CD2734C54000705BBB /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609E1CC2734C54000705BBB /* ChatVC.swift */; };
 		E609E1CF2734C55100705BBB /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609E1CE2734C55100705BBB /* CameraVC.swift */; };
 		E609E1D12734C59700705BBB /* PickerResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E609E1D02734C59700705BBB /* PickerResultVC.swift */; };
 		E6545F842739FAEA00C01928 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6545F832739FAEA00C01928 /* GoogleService-Info.plist */; };
 		E6545F87273A0CF300C01928 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6545F86273A0CF300C01928 /* UserModel.swift */; };
 		E6545F89273A0D2300C01928 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6545F88273A0D2300C01928 /* MessageModel.swift */; };
-		E6545F8B273A0E5300C01928 /* ChatLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6545F8A273A0E5300C01928 /* ChatLoginVC.swift */; };
 		E6545F8E273A10D900C01928 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6545F8D273A10D900C01928 /* UserViewModel.swift */; };
 		E6545F91273A301B00C01928 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6545F90273A301B00C01928 /* ChatCell.swift */; };
 		E6545F93273A38D900C01928 /* ChatCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6545F92273A38D900C01928 /* ChatCell2.swift */; };
 		E668BAF02738B4180029EF3E /* CameraEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E668BAEF2738B4180029EF3E /* CameraEditVC.swift */; };
 		E6D09FC8273D066D00554933 /* ChatUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D09FC6273D066D00554933 /* ChatUserCell.swift */; };
 		E6D09FC9273D066D00554933 /* ChatUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6D09FC7273D066D00554933 /* ChatUserCell.xib */; };
-		E6D09FCB273DEE3000554933 /* ChatVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D09FCA273DEE3000554933 /* ChatVC2.swift */; };
 		E6D09FCD273E2EDF00554933 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D09FCC273E2EDF00554933 /* ChatViewController.swift */; };
+		E6D09FCF2742294200554933 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D09FCE2742294100554933 /* LoginViewController.swift */; };
+		E6FC118D274734F6007181ED /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FC118C274734F6007181ED /* ChatVC.swift */; };
+		E6FC118F2747361A007181ED /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FC118E2747361A007181ED /* LoginVC.swift */; };
+		E6FC119127473624007181ED /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FC119027473624007181ED /* ChannelVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,21 +46,22 @@
 		E609E1C62734C2D200705BBB /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		E609E1C82734C3D500705BBB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		E609E1CA2734C3DE00705BBB /* SideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideVC.swift; sourceTree = "<group>"; };
-		E609E1CC2734C54000705BBB /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		E609E1CE2734C55100705BBB /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		E609E1D02734C59700705BBB /* PickerResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerResultVC.swift; sourceTree = "<group>"; };
 		E6545F832739FAEA00C01928 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E6545F86273A0CF300C01928 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		E6545F88273A0D2300C01928 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
-		E6545F8A273A0E5300C01928 /* ChatLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLoginVC.swift; sourceTree = "<group>"; };
 		E6545F8D273A10D900C01928 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		E6545F90273A301B00C01928 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		E6545F92273A38D900C01928 /* ChatCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell2.swift; sourceTree = "<group>"; };
 		E668BAEF2738B4180029EF3E /* CameraEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraEditVC.swift; sourceTree = "<group>"; };
 		E6D09FC6273D066D00554933 /* ChatUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUserCell.swift; sourceTree = "<group>"; };
 		E6D09FC7273D066D00554933 /* ChatUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatUserCell.xib; sourceTree = "<group>"; };
-		E6D09FCA273DEE3000554933 /* ChatVC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC2.swift; sourceTree = "<group>"; };
 		E6D09FCC273E2EDF00554933 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E6D09FCE2742294100554933 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6FC118C274734F6007181ED /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		E6FC118E2747361A007181ED /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E6FC119027473624007181ED /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,16 +131,13 @@
 		E609E1C52734C23400705BBB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E6FC118B274734D9007181ED /* Chat */,
+				E6FC11892747335B007181ED /* Camera */,
 				E609E1C62734C2D200705BBB /* TabBarVC.swift */,
 				E609E1C82734C3D500705BBB /* HomeVC.swift */,
 				E609E1CA2734C3DE00705BBB /* SideVC.swift */,
-				E609E1CC2734C54000705BBB /* ChatVC.swift */,
-				E609E1CE2734C55100705BBB /* CameraVC.swift */,
-				E609E1D02734C59700705BBB /* PickerResultVC.swift */,
-				E668BAEF2738B4180029EF3E /* CameraEditVC.swift */,
-				E6545F8A273A0E5300C01928 /* ChatLoginVC.swift */,
-				E6D09FCA273DEE3000554933 /* ChatVC2.swift */,
 				E6D09FCC273E2EDF00554933 /* ChatViewController.swift */,
+				E6D09FCE2742294100554933 /* LoginViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +168,26 @@
 				E6D09FC7273D066D00554933 /* ChatUserCell.xib */,
 			);
 			path = tempCollection;
+			sourceTree = "<group>";
+		};
+		E6FC11892747335B007181ED /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				E609E1CE2734C55100705BBB /* CameraVC.swift */,
+				E609E1D02734C59700705BBB /* PickerResultVC.swift */,
+				E668BAEF2738B4180029EF3E /* CameraEditVC.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		E6FC118B274734D9007181ED /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC118E2747361A007181ED /* LoginVC.swift */,
+				E6FC119027473624007181ED /* ChannelVC.swift */,
+				E6FC118C274734F6007181ED /* ChatVC.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,23 +307,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FC118D274734F6007181ED /* ChatVC.swift in Sources */,
 				E609E1C92734C3D500705BBB /* HomeVC.swift in Sources */,
 				E6545F8E273A10D900C01928 /* UserViewModel.swift in Sources */,
 				E6D09FC8273D066D00554933 /* ChatUserCell.swift in Sources */,
-				E6D09FCB273DEE3000554933 /* ChatVC2.swift in Sources */,
+				E6FC118F2747361A007181ED /* LoginVC.swift in Sources */,
+				E6D09FCF2742294200554933 /* LoginViewController.swift in Sources */,
 				E609E1CF2734C55100705BBB /* CameraVC.swift in Sources */,
 				E609E1CB2734C3DE00705BBB /* SideVC.swift in Sources */,
 				E609E1C72734C2D200705BBB /* TabBarVC.swift in Sources */,
 				E609E1B22734C0DA00705BBB /* AppDelegate.swift in Sources */,
+				E6FC119127473624007181ED /* ChannelVC.swift in Sources */,
 				E6545F93273A38D900C01928 /* ChatCell2.swift in Sources */,
 				E6545F87273A0CF300C01928 /* UserModel.swift in Sources */,
-				E6545F8B273A0E5300C01928 /* ChatLoginVC.swift in Sources */,
 				E6D09FCD273E2EDF00554933 /* ChatViewController.swift in Sources */,
 				E668BAF02738B4180029EF3E /* CameraEditVC.swift in Sources */,
 				E6545F89273A0D2300C01928 /* MessageModel.swift in Sources */,
 				E6545F91273A301B00C01928 /* ChatCell.swift in Sources */,
 				E609E1D12734C59700705BBB /* PickerResultVC.swift in Sources */,
-				E609E1CD2734C54000705BBB /* ChatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

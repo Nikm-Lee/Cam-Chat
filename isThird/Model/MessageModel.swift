@@ -11,8 +11,8 @@ import MessageKit
 
 struct Sender : SenderType{
     var senderId: String
-    
     var displayName: String
+    var nickName : String?
 }
 
 struct Message : MessageType{

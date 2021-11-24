@@ -23,6 +23,7 @@ target 'isThird' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod 'MessageKit'
+  pod 'SnapKit'
 #  pod 'FirebaseFirestoreSwift'
   # Pods for isThird
 
